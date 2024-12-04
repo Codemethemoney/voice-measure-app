@@ -1,0 +1,109 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+yarn.lock
+package-lock.json
+
+# Environment files
+*.env
+.env*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Secret keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Authentication tokens
+*.token
+*.p8
+*.jwt
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+out/
+.next/
+.nuxt/
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Debug files
+.debug/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Production bundle
+*.bundle.js
+*.bundle.css
+*.chunk.js
+
+# Mobile app specific
+*.apk
+*.aab
+*.ipa
+*.app
+
+# Database files
+*.sqlite
+*.db
+
+# Media files (if versioned separately)
+*.mp3
+*.wav
+*.ogg
+*.mp4
+*.mov
+*.avi
+
+# Misc
+.cache/
+.history/
