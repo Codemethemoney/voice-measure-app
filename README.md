@@ -1,18 +1,23 @@
-# Voice Measurement App
+# Voice Measure App
 
-A voice-enabled measurement application that allows users to record measurements using voice input, view them in a dashboard, and sync across devices.
+## Overview
 
-## Features
-- Voice-enabled measurement input
-- Real-time dashboard visualization
-- Offline-first architecture
-- Cross-device synchronization
+Voice Measure is an application designed to measure and analyze voice data. It consists of three main components:
+
+- **Backend**: Node.js server handling API requests and data processing.
+- **Frontend**: React application for web users.
+- **Mobile**: React Native app for mobile users.
+
+## Project Structure
+
+- `backend/` - The backend server.
+- `frontend/` - The web frontend application.
+- `mobile/` - The mobile application built with React Native.
 
 ## Getting Started
-[Installation and setup instructions will be added]
 
-## Contributing
-[Contribution guidelines will be added]
+Instructions on how to set up the entire project...
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details
+## Contribution
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct.
