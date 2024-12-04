@@ -1,1 +1,18 @@
-{"encoding": "utf-8", "content": "# Voice Measurement App\n\nA voice-enabled measurement application for accurate measurements using voice input.\n\n## Features\n- Voice-enabled measurement input\n- Real-time dashboard visualization\n- Offline-first architecture\n- Cross-device synchronization\n\n## Getting Started\n[Installation and setup instructions will be added]\n\n## Contributing\n[Contribution guidelines will be added]\n\n## License\nThis project is licensed under the MIT License"}
+# Voice Measurement App
+
+A voice-enabled measurement application for accurate measurements using voice input.
+
+## Features
+- Voice-enabled measurement input
+- Real-time dashboard visualization
+- Offline-first architecture
+- Cross-device synchronization
+
+## Getting Started
+[Installation and setup instructions will be added]
+
+## Contributing
+[Contribution guidelines will be added]
+
+## License
+This project is licensed under the MIT License
