@@ -1,0 +1,23 @@
+# Build directories
+dist/
+build/
+coverage/
+
+# Dependencies
+node_modules/
+
+# Generated files
+package-lock.json
+yarn.lock
+
+# Environment files
+.env*
+
+# Documentation
+README.md
+LICENSE
+
+# Mobile specific
+android/
+ios/
+*.keystore
