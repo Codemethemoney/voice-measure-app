@@ -1,0 +1,33 @@
+-- Users Table
+CREATE TABLE users (
+    id UUID PRIMARY KEY,
+    username VARCHAR(255) UNIQUE NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Measurements Table
+CREATE TABLE measurements (
+    id UUID PRIMARY KEY,
+    user_id UUID REFERENCES users(id),
+    value DECIMAL(10,2) NOT NULL,
+    unit VARCHAR(50) NOT NULL,
+    notes TEXT,
+    recorded_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    synced_at TIMESTAMP WITH TIME ZONE,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- SyncLog Table
+CREATE TABLE sync_log (
+    id UUID PRIMARY KEY,
+    user_id UUID REFERENCES users(id),
+    operation VARCHAR(50) NOT NULL,
+    entity_type VARCHAR(50) NOT NULL,
+    entity_id UUID NOT NULL,
+    status VARCHAR(50) NOT NULL,
+    attempted_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    completed_at TIMESTAMP WITH TIME ZONE
+);
