@@ -1,6 +1,6 @@
 # Voice Measurement App
 
-A voice-enabled measurement application that allows users to record measurements using voice input, view them in a dashboard, and sync across devices.
+A voice-enabled measurement application for accurate measurements using voice input.
 
 ## Features
 - Voice-enabled measurement input
@@ -15,4 +15,4 @@ A voice-enabled measurement application that allows users to record measurements
 [Contribution guidelines will be added]
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License
